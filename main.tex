@@ -6,7 +6,8 @@
 \usepackage{graphicx}
 \usepackage[export]{adjustbox}
 
-\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{biblatex}
+\addbibresource{bibly.bib}
 
 \title{Molecular Pharmacology Notes}
 \author{Elisa Pettinà}
@@ -83,15 +84,31 @@ In addition to that, there are additional factors at play, particularly non-spec
 \subsubsection{Volume of distribution}
 The concept of “apparent volume of distribution” is a concept that seeks to predict how
 extensively a drug is distributed throughout the body. 
-The apparent volume of distribution, $Vd$, is mathematically calculated by dividing the dose that is administered ($mg$) by the plasma concentration ($mg/L$).
-\begin{equation*}
-    Vd = Dose/C
-\end{equation*}
-Another way to think about Vd is that Vd is equal to the amount of space that a drug
-must fill up such that a given dose of a drug will achieve a specific plasma
-concentration. There is an assumption here; that is, calculation of the apparent Vd
-presumes that the drug concentration is the same everywhere throughout the body.
-We know, in actuality, though, that this is not true since most drugs are not uniformly
-distributed.
+The apparent volume of distribution, $Vd$, is mathematically calculated by dividing the dose that is administered ($mg$) by the plasma concentration C ($mg/L$).
 
+\begin{equation*}
+    Vd = \frac{Dose}{C}
+\end{equation*}
+
+Based on the above equation:
+
+\begin{itemize}
+    \item A drug with a high $Vd$ has a propensity to leave the plasma and enter the extravascular compartments of the body, meaning that a higher dose of a drug is required to achieve a given plasma concentration. (High $Vd$ $\rightarrow$ More distribution to other tissue)
+    \item Conversely, a drug with a low $Vd$ has a propensity to remain in the plasma meaning a lower dose of a drug is required to achieve a given plasma concentration. (Low $Vd$ $\rightarrow$ Less distribution to other tissue)
+
+\end{itemize}
+
+Another way to think about $Vd$ is that $Vd$ is equal to the amount of space that a drug
+must fill up such that a given dose of a drug will achieve a specific plasma concentration. 
+There is an assumption here; that is, calculation of the apparent $Vd$ presumes that the drug concentration is the same everywhere throughout the body.
+We know though that this is not true since most drugs are not uniformly distributed.
+More on this on the NIH website\cite{NIH}.
+
+\begin{figure}
+    \includegraphics[width=0.6\textwidth, center]{images/image5.png}
+    \caption{Drug A diffuses freely between the two compartments. Drug B binds avidly to plasma proteins and is retained in the plasma compartment (low $Vd$). Drug C binds avidly to molecules in peripheral tissues. Low concentration in blood, thus high $Vd$ and higher total dose required to achieve measurable plasma centration.}
+\end{figure}
+
+
+\printbibliography
 \end{document}
