@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1747230117.60099 "/home/elisss/Molecular-Pharmacology-Notes/main.tex" "main.pdf" "main" 1747230118.19007 0
-  "/home/elisss/Molecular-Pharmacology-Notes/main.tex" 1747230117.42988 4449 46753b761fa8d0b764a276e1d48146bd ""
+["pdflatex"] 1747231269.30706 "/home/elisss/Molecular-Pharmacology-Notes/main.tex" "main.pdf" "main" 1747231269.97111 0
+  "/home/elisss/Molecular-Pharmacology-Notes/main.tex" 1747231269.13985 5907 ea18ff055b5c265141321ac8fc539262 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -101,10 +101,11 @@
   "images/image.png" 1747226249.51702 383504 4b2e149343677e6bba9f181c98569add ""
   "images/image2.png" 1747228513.71925 349142 bf07e6d1427bb3081ad56e1d832d62fd ""
   "images/image3.png" 1747230094.75015 155290 6e1d58a12d6e1bf84b530225dffd08d0 ""
+  "images/image4.png" 1747231025.48083 127654 24876cece4c493c8ca3c9877be8367d7 ""
   "images/image_1.png" 1747228098.67263 313451 462a9cadbdfd42b1611a2e2ce89ef629 ""
-  "main.aux" 1747230118.14088 865 7927b2ba396f6b415ed720eb67bdcf0a "pdflatex"
-  "main.out" 1747230118.14988 524 b9116c521ca016b2dda5018b063d45df "pdflatex"
-  "main.tex" 1747230117.42988 4449 46753b761fa8d0b764a276e1d48146bd ""
+  "main.aux" 1747231269.9281 1099 e92dd64741882a118a06fc1bf40a80c0 "pdflatex"
+  "main.out" 1747231269.9281 645 80ce13e30bc16f4c1a06110b102ec4ff "pdflatex"
+  "main.tex" 1747231269.13985 5907 ea18ff055b5c265141321ac8fc539262 ""
   (generated)
   "main.aux"
   "main.log"
