@@ -1,20 +1,76 @@
-\documentclass{article}
+\documentclass{book}
 \usepackage[english]{babel}
 \usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
 
 \usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage[export]{adjustbox}
+
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
 
-\title{Your Paper}
-\author{You}
+\title{Molecular Pharmacology Notes}
+\author{Elisa Pettinà}
 
 \begin{document}
 \maketitle
 
-\section{Introduction}
-\subsection{{Prova}}
-rngvor
+\chapter{Introduction: PK/PD}
+\section{{What is a drug?}}
+\textbf{A drug is a chemical that interacts with proteins in the body to affect a physiological function}.
+Once these chemicals are absorbed into the systemic circulation they bind with certain proteins and this changes the functioning of the cell slightly. 
+For example, anticancer drugs bind to proteins on the surface of cancer cells this stimulates the cells to die. 
+In this case cell death is the physiological action of the drug.
+\\
+No drugs are specific to interacting with just one type of cell or one type of protein
+and this is what causes \textbf{side effects}. 
+Again using an anticancer drug as an example, the medication works by binding to very rapidly dividing cells, such as cancer cells, however hair cells are also rapidly dividing and that is why one of the side effects of anticancer drugs is hair loss.
+\\
+Drugs can be generally divided into two main categories: \textbf{agonist}, that stimulate a response and \textbf{antagonist}, that inhibit a response.
+
+\includegraphics[width=0.7\textwidth, center]{images/image.png}
+
+Developing and testing drugs is a very expensive business!
+Many parameters regarding pharmacokinetics and pharmacodynamycs need to be taken studied and fit into strict boundaries for the drug to be accepted.
+
+\section{Pharmacokinetics}
+Pharmacokinetics (PK) is the study of how the body interacts with administered substances for
+the entire duration of exposure.
+In other words, \textbf{what the body does to the drug(s)}!
+\\
+For a chemical compound to become a marketable drug, it must have favourable properties in addition to \textbf{efficacy} (its therapeutic effect) and \textbf{safety}. 
+These properties are summarised in the acronym ADME, which refers to \textbf{absorption}, \textbf{distribution}, \textbf{metabolism} and \textbf{excretion}.
+
+\begin{itemize}
+    \item Absorption: a compound's ability to pass through barriers such as the intestinal lining, the nasal lining, the lungs or the skin.
+    \item Distribution: how the compound is distributed around the body and its propensity to accumulate in certain tissues and organs.
+    \item Metabolism: how the body breaks down the compound, normally by the liver. The key issues are drug-drug interactions and the effects of the metabolites (the new chemicals created as a result of metabolism).
+    \item Excretion: the rate and process through which the compund exits the body.
+\end{itemize}
+
+\includegraphics[width=0.6\textwidth, center]{images/image_1.png}
+
+Often we refer also to \textbf{AADME}, including also \textbf{administration}, which also greatly influences the PK properties of drugs and drug concentration in plasma.
+
+\includegraphics[width=0.6\textwidth, center]{images/image2.png}
+
+
+\subsection{Absorption}
+\textbf{Absorption is the process of a drug moving from its site of delivery into the bloodstream}.
+\\
+Absorption is the process of delivering a drug into the bloodstream. 
+Absorption can be accomplished by administering the drug in a variety of different ways (e.g. orally, rectally, intramuscularly, subcutaneously, inhalation, topically, etc.). 
+Note, that if a drug is administered intravenously (placed directly into the bloodstream), the need for absorption is bypassed entirely.
+\\
+However, the plasmatic membrane cannot be passed freely.
+Gases ($CO_2$, $N_2$, $O_2$, anaesthetic), small uncharged polar molecules (ethanol, urea, water) can pass easily. Inversely, large uncharged polar molecules (sugar), ions and charged polar molecules (amino acids, ATP, proteins, nucleic acids) cannot.
+\\
+\\
+The need for drug molecules to cross lipid bilayers in passing from one body compartment to another requires that the structure has properties that impart solubility in both a hydrophobic medium and water. 
+Each part of a drug molecule contributes hydrophobic or hydrophilic properties to the molecule as a whole and that contribution is known as the \textbf{Hansch partition coefficient} of the
+group.
+
+\includegraphics[width=0.6\textwidth, center]{images/image3.png}
+
 
 
 \end{document}
