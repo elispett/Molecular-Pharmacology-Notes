@@ -4,6 +4,9 @@
 
 \usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage{float}
+\usepackage{chemformula}
+
 \usepackage[export]{adjustbox}
 
 \usepackage{biblatex}
@@ -15,7 +18,7 @@
 \begin{document}
 \maketitle
 
-\chapter{Introduction: PK/PD}
+\chapter{Pharmacokinetics}
 \section{{What is a drug?}}
 \textbf{A drug is a chemical that interacts with proteins in the body to affect a physiological function}.
 Once these chemicals are absorbed into the systemic circulation they bind with certain proteins and this changes the functioning of the cell slightly. 
@@ -108,6 +111,221 @@ More on this on the NIH website\cite{NIH}.
     \includegraphics[width=0.6\textwidth, center]{images/image5.png}
     \caption{Drug A diffuses freely between the two compartments. Drug B binds avidly to plasma proteins and is retained in the plasma compartment (low $Vd$). Drug C binds avidly to molecules in peripheral tissues. Low concentration in blood, thus high $Vd$ and higher total dose required to achieve measurable plasma centration.}
 \end{figure}
+
+\textbf{Binding to plasma proteins} highly influences the volume of distribution and in general, drug efficacy, distribution, and disposition. 
+Serum albumin displays an extraordinary ligand binding capacity, and a-1-Acid glycoprotein is the main carrier for basic and neutral drugs.
+High- and low-density lipoproteins play a limited role in drug binding.
+\\
+\\
+Drug distribution is also influenced by physio-anatomical features.
+For example, brain capillaries are different from general capillaries in the body, forming the \textbf{blood-brain-barrier} (BBB).
+The BBB is composed of specialized endothelial cells, pericytes, a capillary basement membrane, and astrocyte end-feet, all working together to protect the brain from harmful substances while allowing essential nutrients and molecules to enter. 
+The BBB's selectivity is crucial for maintaining a stable and optimal environment for brain function. 
+The placenta is also a barrier (placental barrier) to be taken into account.
+
+\subsection{Metabolism}
+The primary objective of drug metabolism is to facilitate a drug's excretion by increasing its
+water solubility (hydrophilicity). 
+The involved chemical modifications incidentally decrease or increase a drug's pharmacological activity and/or half-life.
+The principal organs of drug metabolism are the liver and (for orally taken drugs) the small intestine. 
+Drugs completely inactivated during the first-pass through these organs must be given parenterally, similarly to poorly absorbed drugs.
+
+\begin{figure}
+    \includegraphics[width=0.6\textwidth, center]{images/image6.png}
+    \caption{\textbf{First pass effect}- The large reduction in concentration of an orally absorbed drug due to passage of the drug through the liver.  Some drug will be lost during absorption from the intestine and more from metabolism in the liver. Remember, the liver sees many things as potential toxins and tries to detoxify them. Drugs are included in that list of things that the liver tries to remove. \textbf{Bioavailability}– the fraction of the drug that escapes the liver and reaches the systemic circulation due to the first pass effect.  If a drug is given intravenously, it is considered to have 100\% bioavailability since it is all in the blood stream. The same drug given orally will have less bioavailability since some is never absorbed (stays in the gut and ends up in the feces) or is modified by the liver before it hits the vascular system.}
+\end{figure}
+
+\subsubsection{Cytochromes P450 and transporters}
+CYPs are hemeproteins used extensively by the liver to metabolize drugs. 
+The types and amounts of CYPs vary by species, sex and genetic makeup. 
+The main families of CYP450 enzymes involved in drug metabolism are the monooxygenases of the CYP1, CYP2 and CYP3 families.
+Changes in CYPs result in different levels of drug effectiveness and toxicity. 
+Differences in cyp450 is responsible for the unique responses of horses and cats to certain drugs.
+
+Drugs can interact with CYPs in 3 different ways:
+
+\begin{itemize}
+    \item Drugs may just be metabolized by the CYPs. Generally this makes drugs less available to the animal as it leads to faster excretion.
+    \item Drugs may inhibit CYP activity. Erythromycin and omeprazole inhibit CYP activity. This prevents the CYPs from metabolizing other drugs being administered to the animal, resulting in abnormally high levels of the unmetabolized drugs.
+    \item Drugs may induce CYP activity. Phenytoin, phenobarbital, griseofulvin and rifampin are CYP inducers. When they are present, the CYPs metabolize other drugs at a much higher rate, resulting in low working levels of those drugs.
+\end{itemize}
+
+However, drug metabolism does not happen only in the liver! 
+\textbf{P-glycoprotein 1} is important protein of the cell membrane that pumps many foreign substances out of cells.
+P-gp is extensively distributed and expressed in the intestinal epithelium where it pumps xenobiotics back into the intestinal lumen, in liver cells where it pumps them into bile ducts, in the cells of the proximal tubule of the kidney where it pumps them into urinary filtrate (in the proximal tubule), and in the capillary endothelial cells composing the blood–brain barrier and blood–testis barrier, where it pumps them back into the capillaries.
+\\
+\\
+Another important family of cell transporters are the \textbf{ABC-type ATPases}.
+Of this family we also find \textbf{P-glycoprotein} (\textbf{Pgp}), also known as multidrug resistance protein 1 (MDR1) or ATP-binding cassette sub-family B member 1 (ABCB1), which is a transmembrane protein that acts as an efflux pump, transporting various substances out of cells.
+It plays a role in drug resistance in cancer and also has physiological functions in various tissues like the intestines, liver, and brain. 
+
+\subsubsection{Other factors influencing drug metabolism}
+There's a plethora of factors that contribute in differences in drug metabolism, e.e. sex, age, polymorphism, diseases\dots.
+Another important aspect to consider is drug interactions.
+The interactions can happen with other drugs, supplements or medical conditions.
+For example, injesting grapefruit blocks CYP3A4 enzyme in enterocytes and in the liver, which metabolizes the drug felodipine.
+Usually CYP3A4 metabolizes the drug to the 15\%, but grapefruit increases bioavailability to 45\%
+
+\includegraphics[width=0.6\textwidth, center]{images/image7.png}
+
+
+\subsection{Excretion}
+\textbf{Excretion is the removal of drugs and their metabolites from the body.}
+The kidney is the principal drug-excreting organ. 
+All renally excreted drugs reach urine via glomerular filtration. Many drugs additionally are secreted into the proximal tubule through the opportunistic (molecular similarity-based) use of organic cation and anion transporters. 
+Lipophilic drugs are additionally secreted into the proximal tubule via passive diffusion, as they can easily cross the membranes of nephron cells.
+\\
+\\
+Excretion can also happen by the bile (and thereby with stool), sweat, exhaled air, saliva, and breast milk, but they play a much smaller role compared to urine.
+An exception is the excretion of volatile anesthetics with exhaled air.
+
+\begin{figure}
+
+    \includegraphics[width=0.4\textwidth, center]{images/image8.png}
+    \caption{Schematic depiction of glomerular filtration, tubular reabsorption and tubular secretion of drugs. FD - free drugs; BD - bound drug; UD - unionized drug; ID - ionized drug; Dx - actively secreted organic acid (or base) drug.}
+    
+\end{figure}
+
+\subsubsection{Drug Clearance}
+
+Drug clearance (body clearance, total body clearance, or $Cl_T$) is a pharmacokinetic term for describing drug elimination from the body without identifying the mechanism of the process.
+Clearance is calculated based on plasma drug concentration data.
+
+\begin{equation*}
+    Cl_T = \frac{\text{elimination rate}}{ \text{plasma concentration} (C_p)}
+\end{equation*}
+\begin{equation*}
+    Cl_T = \frac{dD_E / dt}{C_p} = \frac{\mu g / min}{\mu g /ml} = ml/min
+\end{equation*}
+
+Where $D_E$ is the amount of drug eliminated and $dD_E / dt$ is the rate of elimination.
+Clearance relates to volume of distribution through the following equation:
+
+\begin{equation*}
+    Cl_T = \frac{kC_pV_D}{C_p} = k V_D
+\end{equation*}
+
+Clearance is the product of $V_D$ and $k$, both of which are constant.
+As the plasma drug concentration decreases during elimination, the rate of drug elimination, $dD_E / dt$, decreases accordinlgy, but clearance remains constant.
+Clearance is constant as long as the rate of drug elimination is a first-order process.
+
+\begin{figure}
+    \includegraphics[width=0.6\textwidth, center]{images/image9.png}
+
+    \caption{In medical science, the term half-life typically refers to the elimination half-life. The elimination half-life is defined as the time required for the concentration of a specific substance, typically a drug, to decrease to half of its initial amount in the body. Although different drugs have varying half-lives, they all share a common principle—after one half-life, 50\% of the initial drug amount is removed from the body. Most clinically relevant drugs follow first-order pharmacokinetics, meaning their drug-elimination rates are directly proportional to plasma concentrations.[1] In contrast, a few drugs follow zero-order elimination, in which the drug amount decreases by a constant amount over time, regardless of initial concentration, for example, ethanol. For more info check \cite{NIH_halflife}.}
+\end{figure}
+
+\subsubsection{Free Drug is the Active Fraction}
+
+A basic tenet of clinical pharmacology is that only unbound (free) drug molecules can interact with target receptors that are present on cell membrane or with enzymes that are located inside the cell, and therefore the intensity and duration of drug action are mediated via the time course of unbound drug concentrations at the site of action. 
+With few exceptions, most drug target receptors or enzymes are located outside of the blood circulation in the target tissues. 
+Although unbound drug concentrations in blood can be readily measured, direct assessment of unbound drug concentration at the action site in target tissues is seldom possible due to inaccessibility of the action sites.
+\\
+For this reason, the unbound drug concentration in blood (plasma) is often used to establish pharmacokinetics‐pharmacodynamics (PK‐PD) relationship by applying the so‐called \textbf{free drug hypothesis}. 
+The hypothesis assumes that the unbound drug concentration in blood is the same as that in the site of action at steady state.
+From literature, the free drug hypothesis appears valid for many drugs. 
+The unbound concentrations of drugs in peripheral tissues and brain are quantitatively similar to those in plasma.
+However, the hypothesis is not applicable for some drugs. For examples, the unbound concentrations of morphine, gabapentin, and atenolol in the brain are significantly lower than those in plasma.
+\\
+Over the years, with the progress of molecular biology, it has become evident that efflux drug transporters (such as P‐gp, BCRP, and MRPs) play an important role not only in drug excretion but also in tissue distribution (drug transport), particularly for brain uptake.
+For drugs that are substrates of efflux transporters, at steady state, the unbound drug concentrations in tissues are expected to be lower than unbound drug concentrations in plasma, when efflux transporters are involved in tissue distribution. 
+Based on the involvement of efflux transporters, drugs can generally be categorized into two classes: drugs that are not substrates of efflux transporters (Class I) and drugs that are substrates of efflux transporters (Class II). 
+It is expected that the free drug hypothesis will not be valid for drugs that are substrates of efflux transporters. 
+Conceivably, the free drug hypothesis is also not applicable for drugs that are substrates of influx transporters. 
+Unbound drug concentration in tissues is expected to be higher for influx transporter drugs than that in plasma.
+
+\includegraphics[width=0.8\textwidth, center]{images/image10.png}
+
+\subsection{General PK considerations}
+Other basic PK concepts are :
+\begin{itemize}
+    \item MEC: minimum effective concentration
+    \item MTC: minimum toxic concentration
+\end{itemize}
+
+Everything under MEC is considered "sub therapeutic level", everything above MTC is considered at "toxic level'.
+The first intersection of drug concentratoin with MEC is called "onset time", and the second intersection "termination of action".
+
+\includegraphics[width=0.7\textwidth, center]{images/image11.png}
+
+
+\chapter{Pharmacodynamics}
+
+
+pharmacodynamicsis the other branch, together with pharmacokinetics, of pharmacology.
+
+In particular, pharmacodynamics is the study of \textbf{how a drug affects an organism}, whereas pharmacokinetics is the study of how the organism affects the drug. 
+Both together influence dosing, benefit, and adverse effects. 
+
+Pharmacodynamics places particular emphasis on dose–response relationships, that is, the relationships between drug concentration and effect.
+One dominant example is drug-receptor interactions as modeled by \ch{L + R <=> LR}, where $L$, $R$, and $LR$ represent ligand (drug), receptor, and ligand-receptor complex concentrations, respectively. 
+
+\section{Drug Targets}
+Drug targets can be any structure in the cell and often they are cell receptors.
+
+\includegraphics[width=0.7\textwidth, center]{images/image12.png}
+
+\section{Dose Response Curve}
+The pharmacological effect of a drug depends on its concentration at the site of action, which in turn is determined by the dose of the drug administerd.
+Such a relationship is called the \textbf{D-R}.
+\\
+The idea is that the extent to which the desired response alters as the dose changes.
+The dose is plotted on the horizontal axis and the response on the vertical axis.
+
+\subsection{Graded dose-response graphs}
+Graded dose-response curves are graphical representations of the relationship between the dose of the drug and the effect it achieves. 
+More specifically, the concentration of the drug is used, rather than the actual dose.
+\\
+They are also usually plotted on a logarithmic scale of concentration which stretches the lower end of the dose range, to inflate the useful (20\%-80\%) response range where dose-effect relationship is linear, and to compress the clinically uninteresting high and low dose ranges.
+
+\begin{figure}
+    \includegraphics[width=0.7\textwidth, center]{images/image13.png}
+    \caption{Difference in plotting between dose and logDose}
+\end{figure}
+
+Graded dose-response curves provide insights to these properties:
+
+\begin{itemize}
+    \item Affinity ($K_d$): the tendency of a drug to bind to the receptor, or the extent to which a drug can produce a response when all available receptors or binding sites are occupied. 
+    \item Efficacy: the capacity of a s drug -receptor complex to elicit response.
+    \item Potency:  the uantity of a drug required to produce the desidered response (more potent drugs producce effects at lower concentratoins). Potency refers to the concentration ($EC_{50}$) or dose ($ED_{50}$) of a drug. The potency of a drug depends on the affinity ($K_d$) and in part on the efficacy with which drug-receptor interaction is coupled to response.
+\end{itemize}
+
+\begin{figure}[H]
+    \includegraphics[width=0.35\textwidth, center]{images/image14.png}
+    \caption{Graded dose-response curves for drugs, illustrating different pharmacological potencies and different maximal efficacies. Potency: $B>A>C>D$, Efficacy: all same except for B (lowest).}
+\end{figure}
+
+
+\subsection{Therapeutic Index (Therapeutic Window)}
+\begin{quotation}
+    \textit{Solely the dose determines that a thing is not a poison}
+\end{quotation}
+
+Vitamin A, essential for sustaining life, can be lethal if taken in very doses, and botulin toxin can not cause damages (and even be beneficial) at very low doses.
+\\
+The therapeutic index is a ratio that compares the blood concentration at which a drug becomes toxic and the concentration at which the drug is effective. 
+The larger the therapeutic index (TI), the safer the drug is. If the TI is small (the difference between the two concentrations is very small), the drug must be dosed carefully and the person receiving the drug should be monitored closely for any signs of drug toxicity.
+
+\begin{equation*}
+    TI = \frac{TD_{50}}{ED_{50}}
+\end{equation*}
+
+However, nowadays the term "therapeutic window" or "therapeutic range" is preferred.
+Importantly, this window is not fixed, rather it depends on the age and other physiological characteristics.
+
+\begin{figure}[H]
+    \includegraphics[width=0.7\textwidth, center]{images/image15.png}
+    \caption{}
+\end{figure}
+
+
+
+
+
+
+
+
 
 
 \printbibliography

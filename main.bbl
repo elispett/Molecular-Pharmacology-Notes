@@ -19,6 +19,36 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
+    \entry{NIH_halflife}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=a9cfc4cc6e3db40257497a578ff51e73}{%
+           family={Gerriets.},
+           familyi={G\bibinitperiod},
+           given={Jericho\bibnamedelimb Hallare;\bibnamedelima Valerie},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9cfc4cc6e3db40257497a578ff51e73}
+      \strng{fullhash}{a9cfc4cc6e3db40257497a578ff51e73}
+      \strng{fullhashraw}{a9cfc4cc6e3db40257497a578ff51e73}
+      \strng{bibnamehash}{a9cfc4cc6e3db40257497a578ff51e73}
+      \strng{authorbibnamehash}{a9cfc4cc6e3db40257497a578ff51e73}
+      \strng{authornamehash}{a9cfc4cc6e3db40257497a578ff51e73}
+      \strng{authorfullhash}{a9cfc4cc6e3db40257497a578ff51e73}
+      \strng{authorfullhashraw}{a9cfc4cc6e3db40257497a578ff51e73}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Last accessed 15 May 2025}
+      \field{title}{Elimination Hlaf-Life of Drugs}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/books/NBK545280/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/books/NBK545280/
+      \endverb
+    \endentry
     \entry{NIH}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=b57be1e84aa3dc39597f10d48ae29626}{%
