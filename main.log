@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.17)  15 MAY 2025 18:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.17)  18 MAY 2025 16:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1015,15 +1015,96 @@ File: images/image15.png Graphic file (type png)
 <use images/image15.png>
 Package pdftex.def Info: images/image15.png  used on input line 318.
 (pdftex.def)             Requested size: 310.50357pt x 208.46378pt.
+<images/image16.png, id=92, 767.86874pt x 394.47375pt>
+File: images/image16.png Graphic file (type png)
+<use images/image16.png>
+Package pdftex.def Info: images/image16.png  used on input line 331.
+(pdftex.def)             Requested size: 310.50357pt x 159.5142pt.
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 331--332
+[][] 
+ []
 
 
-[15 <./images/image15.png>]
 
-[16
+[15 <./images/image15.png> <./images/image16.png>]
+<images/image17.png, id=98, 303.38344pt x 341.02406pt>
+File: images/image17.png Graphic file (type png)
+<use images/image17.png>
+Package pdftex.def Info: images/image17.png  used on input line 340.
+(pdftex.def)             Requested size: 155.25517pt x 174.51837pt.
 
-]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 340--341
+[][] 
+ []
 
-[17] (./main.aux)
+<images/image18.png, id=99, 807.015pt x 383.93437pt>
+File: images/image18.png Graphic file (type png)
+<use images/image18.png>
+Package pdftex.def Info: images/image18.png  used on input line 346.
+(pdftex.def)             Requested size: 354.86412pt x 168.82619pt.
+<images/image19.png, id=100, 602.25pt x 330.23375pt>
+File: images/image19.png Graphic file (type png)
+<use images/image19.png>
+Package pdftex.def Info: images/image19.png  used on input line 356.
+(pdftex.def)             Requested size: 266.14978pt x 145.94324pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[16 <./images/image17.png> <./images/image18.png>]
+<images/image20.png, id=106, 735.49782pt x 421.575pt>
+File: images/image20.png Graphic file (type png)
+<use images/image20.png>
+Package pdftex.def Info: images/image20.png  used on input line 363.
+(pdftex.def)             Requested size: 266.14978pt x 152.5581pt.
+
+
+[17 <./images/image19.png> <./images/image20.png>]
+<images/image21.png, id=117, 501.875pt x 224.84pt>
+File: images/image21.png Graphic file (type png)
+<use images/image21.png>
+Package pdftex.def Info: images/image21.png  used on input line 400.
+(pdftex.def)             Requested size: 310.50357pt x 139.11116pt.
+
+Overfull \hbox (26.74297pt too wide) in paragraph at lines 422--432
+\OT1/cmr/bx/n/10 Competitive \OT1/cmr/m/n/10 an-tag-o-nists are sub-classified as re-versible (\OT1/cmr/bx/n/10 surmountable\OT1/cmr/m/n/10 ) or ir-re-versible (\OT1/cmr/bx/n/10 insurmountable\OT1/cmr/m/n/10 )
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 422--432
+
+ []
+
+
+
+[18 <./images/image21.png (PNG copy)>]
+<images/image22.png, id=121, 963.6pt x 718.685pt>
+File: images/image22.png Graphic file (type png)
+<use images/image22.png>
+Package pdftex.def Info: images/image22.png  used on input line 439.
+(pdftex.def)             Requested size: 266.14978pt x 198.49983pt.
+<images/image23.png, id=122, 775.39688pt x 265.74281pt>
+File: images/image23.png Graphic file (type png)
+<use images/image23.png>
+Package pdftex.def Info: images/image23.png  used on input line 454.
+(pdftex.def)             Requested size: 310.50357pt x 106.41689pt.
+
+
+[19 <./images/image22.png (PNG copy)>]
+<images/image24.png, id=127, 460.72125pt x 403.5075pt>
+File: images/image24.png Graphic file (type png)
+<use images/image24.png>
+Package pdftex.def Info: images/image24.png  used on input line 461.
+(pdftex.def)             Requested size: 310.50357pt x 271.94328pt.
+
+
+[20 <./images/image23.png> <./images/image24.png>]
+
+[21
+
+] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
@@ -1033,18 +1114,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24983 strings out of 469626
- 511244 string characters out of 5471010
- 1320650 words of memory out of 5000000
- 51432 multiletter control sequences out of 15000+600000
- 634923 words of font info for 68 fonts, out of 8000000 for 9000
+ 25056 strings out of 469626
+ 513110 string characters out of 5471010
+ 1320758 words of memory out of 5000000
+ 51503 multiletter control sequences out of 15000+600000
+ 635544 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,8n,105p,1034b,1732s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (17 pages, 6297577 bytes).
+ 99i,8n,105p,1069b,1732s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (21 pages, 8416088 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 219 PDF objects out of 1000 (max. 8388607)
+ 110 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 

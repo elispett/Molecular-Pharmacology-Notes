@@ -79,6 +79,62 @@
       \verb https://www.ncbi.nlm.nih.gov/books/NBK545280/
       \endverb
     \endentry
+    \entry{bulltes}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=403d02cac7f29b83616168d5d69bcf82}{%
+           family={Medbulltes},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{403d02cac7f29b83616168d5d69bcf82}
+      \strng{fullhash}{403d02cac7f29b83616168d5d69bcf82}
+      \strng{fullhashraw}{403d02cac7f29b83616168d5d69bcf82}
+      \strng{bibnamehash}{403d02cac7f29b83616168d5d69bcf82}
+      \strng{authorbibnamehash}{403d02cac7f29b83616168d5d69bcf82}
+      \strng{authornamehash}{403d02cac7f29b83616168d5d69bcf82}
+      \strng{authorfullhash}{403d02cac7f29b83616168d5d69bcf82}
+      \strng{authorfullhashraw}{403d02cac7f29b83616168d5d69bcf82}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Last accessed 15 May 2025}
+      \field{title}{Antagonists}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://step1.medbullets.com/pharmacology/107008/pharmacodynamics
+      \endverb
+      \verb{url}
+      \verb https://step1.medbullets.com/pharmacology/107008/pharmacodynamics
+      \endverb
+    \endentry
+    \entry{bicuculline}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Last accessed 15 May 2025}
+      \field{title}{Bicuculline}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Bicuculline
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Bicuculline
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
