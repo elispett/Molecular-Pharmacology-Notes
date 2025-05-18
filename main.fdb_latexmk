@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1747561676.18657 "main.bcf" "main.bbl" "main" 1747576915.85609 0
+["biber main"] 1747561676.18657 "main.bcf" "main.bbl" "main" 1747585712.31385 0
   "bibly.bib" 1747561665.42388 806 9577be0382318235bf5840aa663b24fb ""
-  "main.bcf" 1747576915.77989 108867 a7ad24642d2210fcca3f3f73ab02e88c "pdflatex"
+  "main.bcf" 1747585712.16991 108867 a7ad24642d2210fcca3f3f73ab02e88c "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1747576913.40517 "/home/elisss/Molecular-Pharmacology-Notes/main.tex" "main.pdf" "main" 1747576915.85629 0
-  "/home/elisss/Molecular-Pharmacology-Notes/main.tex" 1747576910.95476 33752 6e3c4e88524dddecec2be89b6ac5c5f1 ""
+["pdflatex"] 1747585707.23906 "/home/elisss/Molecular-Pharmacology-Notes/main.tex" "main.pdf" "main" 1747585712.31439 0
+  "/home/elisss/Molecular-Pharmacology-Notes/main.tex" 1747585706.91993 39090 e5699e7e50808fd56c163de0bd5216db ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -208,10 +208,12 @@
   "images/image8.png" 1747315097.18836 438484 83bc0dc9a4d2c1103e307206523b3201 ""
   "images/image9.png" 1747316769.80753 2010434 0be26c88914ae2aff1497a81ccb207f1 ""
   "images/image_1.png" 1747228098.67263 313451 462a9cadbdfd42b1611a2e2ce89ef629 ""
-  "main.aux" 1747576915.77005 10032 709a81adf2a4f134a44dede0f4080e79 "pdflatex"
+  "images3/image.png" 1747582564.12502 148342 47bffd5e6c245871ea00abc2de3d3dd7 ""
+  "images3/image2.png" 1747584945.6591 180919 59ea0b15cf6d3efa2d0818ae148740d0 ""
+  "main.aux" 1747585712.1501 11520 b9a6a89e8cb57579b81cc7c3ae35c0f0 "pdflatex"
   "main.bbl" 1747561677.40136 5536 15b16830cd54cacac63069f1124ef8ce "biber main"
-  "main.run.xml" 1747576915.77989 2300 673dcfcb256919c9969edca1dab6b062 "pdflatex"
-  "main.tex" 1747576910.95476 33752 6e3c4e88524dddecec2be89b6ac5c5f1 ""
+  "main.run.xml" 1747585712.16991 2300 673dcfcb256919c9969edca1dab6b062 "pdflatex"
+  "main.tex" 1747585706.91993 39090 e5699e7e50808fd56c163de0bd5216db ""
   (generated)
   "main.aux"
   "main.bcf"
