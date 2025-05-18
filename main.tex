@@ -6,6 +6,8 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{chemformula}
+\usepackage{subfig}
+
 
 \usepackage[export]{adjustbox}
 
@@ -507,7 +509,7 @@ Similarly, \textbf{amphetamines} alter renal filtrate pH, making it more acidic,
     \item respondent or operant conditioning
 \end{itemize}
 
-\subsection{GPCR}
+\section{GPCR}
 G-protein-coupled receptors (GPCRs) are the largest and most diverse group of membrane receptors in eukaryotes (humans alone have nearly 1,000 different GPCRs, and each one is highly specific to a particular signal). 
 These cell surface receptors act like an inbox for messages in the form of light energy, peptides, lipids, sugars, and proteins. 
 Such messages inform cells about the presence or absence of life-sustaining light or nutrients in their environment, or they convey information sent by other cells.
@@ -528,17 +530,62 @@ This change then triggers the interaction between the GPCR and a nearby G protei
 G proteins are specialized proteins with the ability to bind the nucleotides guanosine triphosphate (GTP) and guanosine diphosphate (GDP). 
 Some G proteins, such as the signaling protein Ras, are small proteins with a single subunit. However, the G proteins that associate with GPCRs are heterotrimeric, meaning they have three different subunits: an alpha subunit, a beta subunit, and a gamma subunit. Two of these subunits — alpha and gamma — are attached to the plasma membrane by lipid anchors (Figure \ref{fig:GPCR}).
 
-\begin{figure}[H]
+\begin{figure}
    \centering
    \includegraphics[width=0.7\textwidth]{images3/image2.png}
    \caption{\label{fig:GPCR} In unstimulated cells, the state of G alpha (orange circles) is defined by its interaction with GDP, G beta-gamma (purple circles), and a G-protein-coupled receptor (GPCR; light green loops). Upon receptor stimulation by a ligand called an agonist, the state of the receptor changes. G alpha dissociates from the receptor and G beta-gamma, and GTP is exchanged for the bound GDP, which leads to G alpha activation. G alpha then goes on to activate other molecules in the cell.}
 \end{figure}
 
-\subsubsection{GPCR desensitization}
+\subsection{GPCR desensitization}
 While GPCR signaling is essential, overstimulation can be deleterious, resulting in cellular toxicity or uncontrolled cellular growth. 
 Accordingly, nature has developed a number of mechanisms for limiting GPCR signaling, which are broadly referred to as desensitization, and refer to a decrease in response to repeated or continuous stimulation. 
+We can distinguish two types of desensitization:
+
+\begin{itemize}
+    \item \textbf{Homologous desensitization}, in which the GPCR is downregulated;
+    \item \textbf{Heterologous desensitization}, wherein the activated GPCR causes downregulation of a different GPCR. This downregulation is regulated by protein kinases-dependent phosphorylation of the intracellular (or cytoplasmatic) receptor domain.
+\end{itemize}
+
+Agonist binding also converts the receptor into a substrate for a family of kinases, the G-protein-couple receptor kinases (\textbf{GRKs}).
+GRKs phosphorylate only agonist-activated receptors.
+Subsequently, the phosphorylated receptor becomes a binding partner for \textbf{arrestins}.
+Arrestins are normally cytosolic proteins, but they recognise agonist-activated, phosphorylated receptors and bind them. 
+This binding makes the receptor inaccessible for G-proteins (i.e. the arrestin-bound receptor is desensitized), and it targets the receptor for internalization. 
+This is because arrestins do not only bind receptors, but they also bind components of clathrin-coated pits.
+Thus, arrestin-bound receptors move into clathrin-coated pits and are then ionternalized.
+\\
+\\
+\textbf{Short-term desensitization} occurs over minutes, and is primarily associated with $\beta$-arrestins preventing G protein interaction with a GPCR. 
+\textbf{Longer-term desensitization}, referred to as downregulation, occurs over hours to days, and involves receptor internalization into vesicles, degradation in lysosomes and decreased receptor mRNA levels through unclear mechanisms. 
+Phosphorylation of the receptor by GPCR kinases (GRKs) and the recruitment of $\beta$-arrestins is critical to both these short- and long-term desensitization mechanisms. 
+In addition to phosphorylation, both the GPCR and $\beta$-arrestins are modified post-translationally in several ways, including by ubiquitination. 
+For many GPCRs, receptor ubiquitination promotes degradation of agonist-activated receptors in the lysosomes. 
+
+\begin{figure}
+   \centering
+   \includegraphics[width=0.7\textwidth]{images3/image3.png}
+   \caption{\textbf{Classical view of desensitization, resensitization, and recycling of GPCRs}. When a ligand binds to the GPCR it causes a conformational change in the GPCR. The GPCR activates an associated G-protein by exchanging its bound GDP for a GTP. The G-protein's $\alpha$ subunit dissociates from the $\beta$ and $\gamma$ subunits to further affect intracellular signaling proteins or target functional proteins. The dissociated $\beta \gamma$ subunits facilitate the recruitment of GRK and PI3K to the receptor complex. The GRK phosphorylates C-terminal tail of the receptor which results in increased affinity and binding of the receptors to $\beta$-arrestins. Once bound, $\beta$-arrestins prevent G-protein coupling (desensitization) and may recruit other proteins AP-2 and clathrin required for receptor endocytosis (internalization). PI3K plays a role in generation of D3 phosphoinositides required for recruitment of AP-2 to the receptor complex. The membrane buds inwardly and pinched off from the membrane to form endocytic vesicles. Once internalized the receptors are trafficked to recycling endosomes or targeted to lysosomes for degradation. The receptors in the recycling endosomes are subsequently dephosphorylated by PP2A and recycled back to the plasma membrane as resensitized receptors.}
+\end{figure}
 
 
+\subsection{$\beta$-adrenergic receptors}
+The adrenergic receptors or adrenoceptors are a class of GPCR that are targets of many catecholamines like norepinephrine (noradrenaline) and epinephrine (adrenaline) produced by the body, but also many medications like beta blockers, beta-2 ($\beta 2$) agonists and alpha-2 ($\alpha 2$) agonists, which are used to treat high blood pressure and asthma, for example.
+
+\section{Nicotinic acetylcholine receptor}
+Nicotinic acetylcholine receptors, or nAChRs, are receptor polypeptides that respond to the neurotransmitter \textbf{acetylcholine}. 
+Nicotinic receptors also respond to drugs such as the agonist \textbf{nicotine}. 
+They are found in the central and peripheral nervous system, muscle, and many other tissues of many organisms. 
+At the neuromuscular junction they are the primary receptor in muscle for motor nerve-muscle communication that controls muscle contraction. 
+In the peripheral nervous system: (1) they transmit outgoing signals from the presynaptic to the postsynaptic cells within the sympathetic and parasympathetic nervous system, and (2) they are the receptors found on skeletal muscle that receive acetylcholine released to signal for muscular contraction.
+
+\begin{figure}%
+    \centering
+    \subfloat[\centering Nicotinic receptors are permeable to positive ions: Na+, K+ e Ca2+]{{\includegraphics[width=0.3\textwidth]{images3/image4_1.png} }}%
+    \qquad
+    \subfloat[\centering Nicotinic receptors are found in the CNS and at the neuromuscular junction.]{{\includegraphics[width=0.6\textwidth]{images3/image4.png} }}%
+    \caption{2 Figures side by side}%
+    \label{fig:example}%
+\end{figure}
 
 
 

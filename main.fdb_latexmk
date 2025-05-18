@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1747561676.18657 "main.bcf" "main.bbl" "main" 1747585712.31385 0
+["biber main"] 1747561676.18657 "main.bcf" "main.bbl" "main" 1747588542.80722 0
   "bibly.bib" 1747561665.42388 806 9577be0382318235bf5840aa663b24fb ""
-  "main.bcf" 1747585712.16991 108867 a7ad24642d2210fcca3f3f73ab02e88c "pdflatex"
+  "main.bcf" 1747588542.65471 108867 a7ad24642d2210fcca3f3f73ab02e88c "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1747585707.23906 "/home/elisss/Molecular-Pharmacology-Notes/main.tex" "main.pdf" "main" 1747585712.31439 0
-  "/home/elisss/Molecular-Pharmacology-Notes/main.tex" 1747585706.91993 39090 e5699e7e50808fd56c163de0bd5216db ""
+["pdflatex"] 1747588538.60453 "/home/elisss/Molecular-Pharmacology-Notes/main.tex" "main.pdf" "main" 1747588542.80773 0
+  "/home/elisss/Molecular-Pharmacology-Notes/main.tex" 1747588533.94707 44209 44e94a4406c3424cf7af5add9770461a ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -37,6 +37,7 @@
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb" 1248133631 32166 b0c356b15f19587482a9217ce1d8fa67 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1248133631 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1248133631 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
@@ -139,6 +140,8 @@
   "/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/blx-dm.def" 1711143581 32761 18d14e3b502c120f79b2184de4e21d14 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx" 1678141846 4629 cda468e8a0b1cfa0f61872e171037a4b ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx" 1711143581 40021 daa5a82ed0967f3ac4b77cb8384cac55 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty" 1696191071 56128 c2ccf1a29d78c33bc553880402e4fb9a ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty" 1696191071 72619 ee90b6612147680fd73c3b1406a74245 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/chemformula/chemformula.sty" 1642971936 120104 16dc691645502ee13b1718d3f1dc0c8d ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/collectbox/collectbox.sty" 1666037909 9124 59c3b56f1a073de66e3eea35f9c173c8 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1579991033 13886 d1306dcf79a944f6988e688c1785f9ce ""
@@ -173,6 +176,7 @@
   "/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty" 1601326656 348 ee405e64380c11319f0e249fed57e6c5 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty" 1601326656 274 5ae372b7df79135d240456a1c6f2cf9a ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty" 1601326656 325 f9f16d12354225b7dd52a3321f085955 ""
+  "/usr/local/texlive/2025/texmf-dist/tex/latex/subfig/subfig.sty" 1158586182 21369 9ef165ca6df8815c92e693146a376c92 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/units/nicefrac.sty" 1137111039 4029 0462ee5ab265cf59dc15a41a3b883101 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/url/url.sty" 1388531844 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/local/texlive/2025/texmf-dist/tex/latex/varwidth/varwidth.sty" 1238697683 10894 d359a13923460b2a73d4312d613554c8 ""
@@ -210,10 +214,13 @@
   "images/image_1.png" 1747228098.67263 313451 462a9cadbdfd42b1611a2e2ce89ef629 ""
   "images3/image.png" 1747582564.12502 148342 47bffd5e6c245871ea00abc2de3d3dd7 ""
   "images3/image2.png" 1747584945.6591 180919 59ea0b15cf6d3efa2d0818ae148740d0 ""
-  "main.aux" 1747585712.1501 11520 b9a6a89e8cb57579b81cc7c3ae35c0f0 "pdflatex"
+  "images3/image3.png" 1747586120.85365 403563 2b3daabfd959e83015eda1de01379174 ""
+  "images3/image4.png" 1747588247.44447 184387 4af5cb33fee46ea1140ec99ee539c4f9 ""
+  "images3/image4_1.png" 1747588329.42701 250322 2b30a21e55ef6ebbf7bbb650e2923b42 ""
+  "main.aux" 1747588542.64513 13828 aa5a0740a27964a75ca3e73dc51798c0 "pdflatex"
   "main.bbl" 1747561677.40136 5536 15b16830cd54cacac63069f1124ef8ce "biber main"
-  "main.run.xml" 1747585712.16991 2300 673dcfcb256919c9969edca1dab6b062 "pdflatex"
-  "main.tex" 1747585706.91993 39090 e5699e7e50808fd56c163de0bd5216db ""
+  "main.run.xml" 1747588542.66428 2300 673dcfcb256919c9969edca1dab6b062 "pdflatex"
+  "main.tex" 1747588533.94707 44209 44e94a4406c3424cf7af5add9770461a ""
   (generated)
   "main.aux"
   "main.bcf"
