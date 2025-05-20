@@ -447,6 +447,16 @@ INPUT ./images3/image4.png
 INPUT ./images3/image4.png
 INPUT ./images3/image4.png
 INPUT ./images3/image4.png
+INPUT ./images3/image5.png
+INPUT ./images3/image5.png
+INPUT ./images3/image5.png
+INPUT ./images3/image5.png
+INPUT ./images3/image5.png
+INPUT ./images3/image6.png
+INPUT ./images3/image6.png
+INPUT ./images3/image6.png
+INPUT ./images3/image6.png
+INPUT ./images3/image6.png
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
