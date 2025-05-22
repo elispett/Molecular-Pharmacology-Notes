@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber main"] 1747561676.18657 "main.bcf" "main.bbl" "main" 1747744446.73833 0
+["biber main"] 1747561676.18657 "main.bcf" "main.bbl" "main" 1747840669.12674 0
   "bibly.bib" 1747561665.42388 806 9577be0382318235bf5840aa663b24fb ""
-  "main.bcf" 1747744446.65106 108867 a7ad24642d2210fcca3f3f73ab02e88c "pdflatex"
+  "main.bcf" 1747840669.00711 108867 a7ad24642d2210fcca3f3f73ab02e88c "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1747744444.34335 "/home/elisss/Molecular-Pharmacology-Notes/main.tex" "main.pdf" "main" 1747744446.73856 0
-  "/home/elisss/Molecular-Pharmacology-Notes/main.tex" 1747744444.01625 47735 e56804fed85d79feb97e81e7f9439438 ""
+["pdflatex"] 1747840666.20796 "/home/elisss/Molecular-Pharmacology-Notes/main.tex" "main.pdf" "main" 1747840669.12704 0
+  "/home/elisss/Molecular-Pharmacology-Notes/main.tex" 1747840665.83125 59294 f00ac9608967947cace4e0bd82d3683b ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -213,16 +213,24 @@
   "images/image9.png" 1747316769.80753 2010434 0be26c88914ae2aff1497a81ccb207f1 ""
   "images/image_1.png" 1747228098.67263 313451 462a9cadbdfd42b1611a2e2ce89ef629 ""
   "images3/image.png" 1747582564.12502 148342 47bffd5e6c245871ea00abc2de3d3dd7 ""
+  "images3/image10.png" 1747748526.49423 273208 857fcd7f92b466219042808de40f2160 ""
+  "images3/image11.png" 1747812318.60297 545439 4a83d373bc04972bb16afed8878f7733 ""
+  "images3/image12.png" 1747815075.02013 101888 66f56f5a9928a606a549928793f5286d ""
+  "images3/image13.png" 1747836924.54675 478231 aec71458f37c2b481fa260f44a6b79c1 ""
+  "images3/image14.png" 1747837598.25107 252200 b871a1066644708c2fa04718b49e66c4 ""
   "images3/image2.png" 1747584945.6591 180919 59ea0b15cf6d3efa2d0818ae148740d0 ""
   "images3/image3.png" 1747586120.85365 403563 2b3daabfd959e83015eda1de01379174 ""
   "images3/image4.png" 1747588247.44447 184387 4af5cb33fee46ea1140ec99ee539c4f9 ""
   "images3/image4_1.png" 1747588329.42701 250322 2b30a21e55ef6ebbf7bbb650e2923b42 ""
   "images3/image5.png" 1747727498.36603 199211 fe35b0c3bd66a423f493eb15f058c99f ""
   "images3/image6.png" 1747727738.14115 23576 62032986d20d358a3c6c7111aba5f249 ""
-  "main.aux" 1747744446.65106 14309 20c29b7cec248f3bd13f3dec3345ee14 "pdflatex"
+  "images3/image7.png" 1747746735.7605 181666 b3152362b2a3209cf43473a725b60570 ""
+  "images3/image8.png" 1747746971.01814 223186 5fe56dce5771f1aaede13fc8661d7669 ""
+  "images3/image9.png" 1747748033.45949 289908 a0ba713cf06c7d2d5d9099d360c25f04 ""
+  "main.aux" 1747840668.99711 17948 6b0269a6139c3c5eaec921227f365204 "pdflatex"
   "main.bbl" 1747561677.40136 5536 15b16830cd54cacac63069f1124ef8ce "biber main"
-  "main.run.xml" 1747744446.65106 2300 673dcfcb256919c9969edca1dab6b062 "pdflatex"
-  "main.tex" 1747744444.01625 47735 e56804fed85d79feb97e81e7f9439438 ""
+  "main.run.xml" 1747840669.00711 2300 673dcfcb256919c9969edca1dab6b062 "pdflatex"
+  "main.tex" 1747840665.83125 59294 f00ac9608967947cace4e0bd82d3683b ""
   (generated)
   "main.aux"
   "main.bcf"
